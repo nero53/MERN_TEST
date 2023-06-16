@@ -22,5 +22,14 @@ console.log(c);
 // console.log(isBoss);
 
 //Example
-const age = prompt("How old are you?");
-if age > 20;
+// const age = prompt("How old are you?");
+// if (age > 20){
+//     console.log("Age is greater than 20")
+// }
+
+//Operators
+let x=1;
+let y=2;
+if (x==1){
+    console.log("x is 1");
+}
