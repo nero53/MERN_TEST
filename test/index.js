@@ -51,3 +51,6 @@ if (x===1){
 }
 //Ternary Operator
 let result= x===1 ? "x =1": "x != 1";
+
+
+// Loop
