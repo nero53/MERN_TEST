@@ -28,32 +28,43 @@ console.log(c);
 // }
 
 //Operators
-let x=1;
-let y=2;
-if (x==1){
-    console.log("x is 1");
-}
-//and operator
-if (x===1 && y===2){
-    console.log("&& operator tested")
-}
-//or operator
-if (x===1 || y===2){
-    console.log("|| operator tested")
+// let x=1;
+// let y=2;
+// if (x==1){
+//     console.log("x is 1");
+// }
+// //and operator
+// if (x===1 && y===2){
+//     console.log("&& operator tested")
+// }
+// //or operator
+// if (x===1 || y===2){
+//     console.log("|| operator tested")
+// }
+
+// //If Else
+
+// if (x===1){
+//     console.log("x=1");
+// }else{
+//     console.log('x!=1');
+// }
+// //Ternary Operator
+// let result= x===1 ? "x =1": "x != 1";
+
+
+// // Loop
+// for ( let i=0; i<10; i++){
+//     console.log(i);
+// }
+
+
+//Functions
+
+function add(a,b){
+    //return a+b
+    console.log(a+b);
 }
 
-//If Else
-
-if (x===1){
-    console.log("x=1");
-}else{
-    console.log('x!=1');
-}
-//Ternary Operator
-let result= x===1 ? "x =1": "x != 1";
-
-
-// Loop
-for ( let i=0; i<10; i++){
-    console.log(i);
-}
+add(1,3);
+add(2,5);
