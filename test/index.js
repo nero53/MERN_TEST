@@ -33,3 +33,11 @@ let y=2;
 if (x==1){
     console.log("x is 1");
 }
+
+if (x===1 && y===2){
+    console.log("&& operator tested")
+}
+
+if (x===1 || y===2){
+    console.log("|| operator tested")
+}
