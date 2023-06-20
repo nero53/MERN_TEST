@@ -1,10 +1,10 @@
 //learning about variables
-var a= "123";
-console.log(a);
-let b = '456';
-console.log(b);
-const c=153;
-console.log(c);
+// var a= "123";
+// console.log(a);
+// let b = '456';
+// console.log(b);
+// const c=153;
+// console.log(c);
 
 
 //INTERACTIONS
@@ -61,10 +61,35 @@ console.log(c);
 
 //Functions
 
-function add(a,b){
-    //return a+b
-    console.log(a+b);
-}
+// function add(a,b){
+//     //return a+b
+//     console.log(a+b);
+// }
 
-add(1,3);
-add(2,5);
+// add(1,3);
+// add(2,5);
+
+
+// //ES^ style   (arrow operator)
+
+// const add = (a,b) => {
+//     console.log(a+b);
+
+// };
+
+
+// add (2,9)
+
+
+
+const person = {
+    firstName: "jjohn",
+    lastName: "Doe",
+    fullName: () => {
+        return `${person.firstName} ${person.lastName}`;
+    },
+};
+
+const c = person.firstName;
+const a = person.fullName();
+console.log(c, a);
