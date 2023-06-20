@@ -97,11 +97,20 @@
 // Arrays
 
 const arr = ["Red", "Green", "Blue"];
-//access first item
-const b = arr[0];
-console.log(b);
-//access last item
-const e = arr[arr.length-1];
-console.log(e);
+// //access first item
+// const b = arr[0];
+// console.log(b);
+// //access last item
+// const e = arr[arr.length-1];
+// console.log(e);
 
-console.log(arr.length);
+// console.log(arr.length);
+
+
+// const func = (data)=>{
+//     console.log(data);
+// }
+//arr.map(d=> console.log(d));
+
+const [first , ...rest] = arr;
+console.log(rest);
